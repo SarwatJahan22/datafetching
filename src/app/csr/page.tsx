@@ -49,6 +49,9 @@ const Products = () => {
             <Image
               src={product.image}
               alt={product.title}
+              layout="responsive"
+              width={16}
+              height={9}
               className="h-40 w-full object-cover mb-4"
             />
             <h2 className="text-xl font-bold text-gray-800">{product.title}</h2>
